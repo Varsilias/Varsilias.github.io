@@ -3,42 +3,46 @@
 const config = {
   github: {
     username: 'Varsilias', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 9, // How many projects to display.
+    sortBy: 'updated', // stars | updated
+    limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    linkedin: 'daniel-okoronkwo',
+    twitter: 'varsilias',
+    // mastodon: 'arifszn@mastodon.social',
+    // facebook: '',
+    // instagram: '',
+    // youtube: '', // example: 'pewdiepie'
+    // dribbble: '',
+    // behance: '',
+    medium: 'danielokoronkwo',
+    dev: 'varsilias',
+    stackoverflow: '19328120/daniel-okoronkwo', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://varsilias.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'danielokoronkwo90@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'TypeScript',
     'JavaScript',
+    'Golang',
+    'Java',
     'React.js',
     'Node.js',
     'Nest.js',
+    'Jest',
+    'Mocha',
+    'HTML5',
     'MySQL',
     'PostgreSQL',
     'Git',
@@ -46,22 +50,38 @@ const config = {
     'PHPUnit',
     'CSS',
     'Antd',
-    'Tailwind',
+    'TailwindCSS',
+    'MUI',
+    'PHP',
+    'Laravel',
+    'AWS',
+    'Digital Ocean',
+    'Heroku',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Minerva Technologies Limited',
+      position: 'Fullstack Engineer',
+      from: 'April 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'Clapmi LLC',
+      position: 'Senior Backend Engineer',
+      from: 'Oct 2021',
+      to: 'March 2022',
+    },
+    {
+      company: 'Varscon',
+      position: 'Fullstack Developer',
       from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      to: 'Sept. 2021',
+    },
+    {
+      company: 'Innovation Growth Hub',
+      position: 'Backend Developer Intern / Fullstack Developer',
+      from: 'June 2018',
+      to: 'July 2019',
     },
   ],
   /* certifications: [
@@ -74,16 +94,10 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Nigeria, Nsukka',
+      degree: 'BSc Computer Science',
+      from: '2019',
+      to: '2023',
     },
   ],
 
@@ -107,7 +121,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'varsilias', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,11 +133,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme

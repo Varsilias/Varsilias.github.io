@@ -104,24 +104,24 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Kanban Task Manager',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Kanban Task Manager also referred to as KTM is a trello-like Task Management application that incoporates modern paradigm for building web applications. it features an authentication mechanism, creation of custom boards and column names as well as individual task for each column',
+      imageUrl: '/kanban-example.png',
+      link: 'https://ktm-react.vercel.app',
     },
     {
-      title: 'Project Name',
+      title: 'Invoicify',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Invoicify is an application that gives its users the ability to automatically create and send invoices to their client. It has built in support for users to create contact details that will automatically be attached to each invoice they send to clients',
+      imageUrl: '/invoicify-example.png',
+      link: 'https://invoicify-eight.vercel.app',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'varsilias', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'danielokoronkwo', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {

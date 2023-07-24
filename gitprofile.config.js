@@ -66,7 +66,7 @@ const config = {
       to: 'Present',
     },
     {
-      company: 'Clapmi LLC',
+      company: 'Clapmi LLC - Contract',
       position: 'Senior Backend Engineer',
       from: 'Oct 2021',
       to: 'March 2022',
@@ -74,14 +74,20 @@ const config = {
     {
       company: 'Varscon',
       position: 'Fullstack Developer',
-      from: 'July 2019',
+      from: 'Oct. 2019',
       to: 'Sept. 2021',
     },
     {
+      company: 'Zuri Team, Inc',
+      position: 'Backend Engineer',
+      from: 'Aug 2019',
+      to: 'Nov. 2019',
+    },
+    {
       company: 'Innovation Growth Hub',
-      position: 'Backend Developer Intern / Fullstack Developer',
+      position: 'Fellow / Backend Developer Intern',
       from: 'June 2018',
-      to: 'July 2019',
+      to: 'Dec 2018',
     },
   ],
   /* certifications: [
@@ -96,8 +102,8 @@ const config = {
     {
       institution: 'University of Nigeria, Nsukka',
       degree: 'BSc Computer Science',
-      from: '2019',
-      to: '2023',
+      from: '2018',
+      to: '2022',
     },
   ],
 

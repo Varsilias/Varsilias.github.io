@@ -29,8 +29,8 @@ const config = {
     email: 'danielokoronkwo90@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '',
+    // 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'TypeScript',
@@ -99,12 +99,12 @@ const config = {
     },
   ], */
   education: [
-    {
-      institution: 'University of Nigeria, Nsukka',
-      degree: 'BSc Computer Science',
-      from: '2018',
-      to: '2022',
-    },
+    // {
+    //   institution: 'University of Nigeria, Nsukka',
+    //   degree: 'BSc Computer Science',
+    //   from: '2018',
+    //   to: '2022',
+    // },
   ],
 
   // To hide the `My Projects` section, keep it empty.
